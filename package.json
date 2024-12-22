@@ -1,6 +1,6 @@
 {
-  "name": "design-code-react-learning",
-  "description": "React learning course which has been done through designcode and major purpose of the same is do make prototype using the react framework",
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
   "version": "1.0.0",
   "author": "Deepanshu Rai <erdkrai04@gmail.com>",
   "dependencies": {
@@ -8,8 +8,9 @@
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "react-helmet": "^5.2.0",
-    "styled-components": "^3.3.3",
-    "webpack-stats-plugin": "^1.1.3"
+    "react-stripe-checkout": "^2.6.3",
+    "stripe": "^6.3.0",
+    "styled-components": "^3.3.3"
   },
   "keywords": [
     "gatsby"
