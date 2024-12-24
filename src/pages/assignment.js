@@ -1,6 +1,6 @@
 import React from 'react';
-import SwiggyHeader from '../components/swiggyHeader';
-import SwiggyCard from '../components/swiggyCard';
+import SwiggyHeader from '../components/SwiggyHeader/swiggyHeader';
+import SwiggyCard from '../components/SwiggyCard/swiggyCard';
 import { menuItems } from '../data/menuItems';
 import './assignment.css';
 
