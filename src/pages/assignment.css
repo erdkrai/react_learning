@@ -9,13 +9,12 @@
   top: 72px;
   background: white;
   z-index: 90;
-  margin: 0 -20px;
 }
 
 .filter-section {
   display: flex;
   gap: 24px;
-  padding: 16px 20px;
+  padding: 16px;
   border-bottom: 1px solid #ddd;
   background: white;
 }
