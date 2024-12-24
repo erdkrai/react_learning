@@ -40,7 +40,7 @@ const IndexPage = () => (
           Complete about the best tools and design system. Prototype and build
           apps with React and Swift
         </p>
-        <Link to="/page-2/">Watch the Video</Link>
+        <Link to="/assignment/">View Assignment</Link>
         <div className="Logos">
           <img src={require('../images/logo-sketch.png')} width="50" />
           <img src={require('../images/logo-figma.png')} width="50" />

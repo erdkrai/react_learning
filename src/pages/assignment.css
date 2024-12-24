@@ -1,0 +1,138 @@
+.assignment-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sticky-wrapper {
+  position: sticky;
+  top: 72px;
+  background: white;
+  z-index: 90;
+  margin: 0 -20px;
+}
+
+.filter-section {
+  display: flex;
+  gap: 24px;
+  padding: 16px 20px;
+  border-bottom: 1px solid #ddd;
+  background: white;
+}
+
+.menu-section {
+  padding-top: 20px;
+}
+
+.search-container {
+  margin: 20px 0;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.recommended-section h3 {
+  margin: 20px 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.highlighted-text {
+  background-color: rgba(96, 178, 70, 0.2);
+  padding: 0 2px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.filter-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border: 1px solid #d4d5d9;
+  border-radius: 18px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-button span {
+  font-size: 14px;
+  color: #3d4152;
+  transition: color 0.2s ease;
+}
+
+.filter-button:hover {
+  border-color: #d4d5d9;
+  background-color: #f2f2f2;
+}
+
+/* Remove color changes on hover since we want subtle effect */
+.filter-button:hover span {
+  color: #3d4152;
+}
+
+/* Keep icon colors unchanged on hover */
+.filter-button:hover .veg .icon-outline {
+  border-color: #60b246;
+}
+
+.filter-button:hover .veg .icon-dot {
+  background-color: #60b246;
+}
+
+.filter-button:hover .non-veg .icon-outline {
+  border-color: #e43b4f;
+}
+
+.filter-button:hover .non-veg .icon-dot {
+  background-color: #e43b4f;
+}
+
+.filter-button.active {
+  background-color: #f2f2f2;
+  border-color: #d4d5d9;
+}
+
+.filter-button.active span {
+  color: #3d4152;
+}
+
+/* Keep original icon colors when active */
+.filter-button.active .veg .icon-outline {
+  border-color: #60b246;
+}
+
+.filter-button.active .veg .icon-dot {
+  background-color: #60b246;
+}
+
+.filter-button.active .non-veg .icon-outline {
+  border-color: #e43b4f;
+}
+
+.filter-button.active .non-veg .icon-dot {
+  background-color: #e43b4f;
+}
+
+/* Remove old toggle styles */
+.toggle-switch,
+.toggle-slider,
+.toggle-icon {
+  display: none;
+}
+
+.recommended-section {
+  padding: 0 20px;
+} 
